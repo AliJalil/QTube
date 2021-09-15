@@ -1,8 +1,9 @@
-package com.example.qtube
+package com.example.qtube.ui
 
 import androidx.recyclerview.widget.DiffUtil
+import com.example.qtube.data.domain.Video
 
-class VideoDiffutil( val oldList:List<Video>, val newList:List<Video>): DiffUtil.Callback(){
+class VideoDiffutil(val oldList:List<Video>, val newList:List<Video>): DiffUtil.Callback(){
     override fun getOldListSize()=oldList.size
     override fun getNewListSize()=newList.size
 

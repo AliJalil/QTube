@@ -1,4 +1,4 @@
-package com.example.qtube
+package com.example.qtube.ui
 
 interface VideoIntectionListener {
 

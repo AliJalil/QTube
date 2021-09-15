@@ -11,10 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QTube">
         <activity
-            android:name=".PlayerActivity"
+            android:name=".ui.PlayerActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,11 +1,13 @@
-package com.example.qtube
+package com.example.qtube.ui
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
+import com.example.qtube.R
+import com.example.qtube.data.domain.Video
 
-class VideoAdapter(private var list: List<Video>,val listener:VideoIntectionListener):RecyclerView.Adapter<VideoViewHolder>() {
+class VideoAdapter(private var list: List<Video>, val listener: VideoIntectionListener):RecyclerView.Adapter<VideoViewHolder>() {
 
 
 

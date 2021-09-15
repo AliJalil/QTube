@@ -1,4 +1,4 @@
-package com.example.qtube
+package com.example.qtube.ui
 
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity

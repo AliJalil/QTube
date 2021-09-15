@@ -1,10 +1,10 @@
-package com.example.qtube
+package com.example.qtube.ui
 
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.qtube.databinding.ItemVideoBinding
+import com.example.qtube.R
 
 class VideoViewHolder(itemView: View) :RecyclerView.ViewHolder(itemView) {
     val Title=itemView.findViewById<TextView>(R.id.title)
